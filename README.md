@@ -1,6 +1,10 @@
 # PDF-QAChatbot-with-Rag
-[Link to PDF-QAChatbot-with-Rag](https://pdf-appchatbot-with-rag.streamlit.app/)
+[Link to PDF-QAChatbot-with-Rag Application](https://pdf-appchatbot-with-rag.streamlit.app/)
 
+Step 1: Upload a PDF file in the left sidebar, then click 'Upload Documents' to start processing the document.
+
+Step 2: Once the process finishes, start asking questions like summarization or explanation of specific knowledge based on the given document.
+![](https://github.com/TeKaiChou/PDF-QAChatbot-with-Rag/blob/main/PDFQA_RAG.gif)
 
 
 ## Overview
