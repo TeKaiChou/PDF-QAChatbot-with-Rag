@@ -8,10 +8,13 @@ This is a web application of QA Chatbot with RAG that combines Streamlit, LlamaI
 
 You can replace the LLM with other popular open-source models, connecting to API, or your model. For the vector database used for RAG, here I use the VectorStoreIndex (in-memory) from LlamaIndex as storage context. It's more suitable to have your own vector database locally or services(ex: Pinecone, Chroma, etc.) as a storage context when you have a business or company-level requirement. You can also customize the QA template and the refined template to meet different purposes. 
 
-## Prerequisites
+## Prerequisites and dependencies
 - Python
-- Framework: llamaindex
-- LLM: Gemini-pro, Embedding Model: embedding-001
+- python-dotenv (for reading environment variable)
+- Streamlit
+- Framework: Llamaindex (can also use langchain to deeper customize your LLM application)
+- Google API Key (LLM: Gemini-pro, Embedding Model: embedding-001)
+
   (You can run the script to see the available LLM and Embedding models from Google Generativeai)
 ```
 import google.generativeai as genai
