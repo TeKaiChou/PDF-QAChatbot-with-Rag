@@ -12,7 +12,7 @@ load_dotenv()
 
 # Initialize streamlit app
 st.set_page_config(page_title="PDF_RAG")
-st.title("QA Chabot with RAG for PDF")
+st.title("QA Chatbot with RAG for PDF")
 st.write("This integrated QA Chatbot applying retrieval augmented generation (RAG) considers the external data sources to answer specific questions based on the knowledge from the context of provided documents.")
 st.divider()
 
